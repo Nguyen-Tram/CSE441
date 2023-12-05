@@ -16,7 +16,7 @@ const Customer = ({ navigation }) => {
         style={{
           flexDirection: 'column',
           margin: 10,
-          flexDirection: 'row',
+          // flexDirection: 'row',
         }}>
         <View style={{ left: 10, flex: 1, flexDirection: 'column' }}>
           <Text style={styles.text}>

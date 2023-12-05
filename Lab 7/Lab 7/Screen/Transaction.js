@@ -44,7 +44,7 @@ const Transaction = ({ navigation }) => {
           style={{
             flexDirection: 'column',
             margin: 10,
-            flexDirection: 'row',
+            // flexDirection: 'row',
           }}>
           <View style={{ left: 10, flex: 1, flexDirection: 'column' }}>
             <Text style={{ color: 'black', fontWeight: 'bold' }}>
@@ -64,7 +64,7 @@ const Transaction = ({ navigation }) => {
             style={{
               flexDirection: 'column',
               margin: 10,
-              flexDirection: 'row',
+              // flexDirection: 'row',
             }}>
             <Text style={{ color: 'red', fontWeight: 'bold', fontSize: 30 }}>
               {formatCurrencyVND(eachTransaction?.price)}
