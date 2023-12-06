@@ -7,13 +7,13 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Customer from './Customer';
-import Home from './Home';
+import Home from '../../../Lab5/Lab5/Screen/Home';
 import Setting from './Setting';
 import Transaction from './Transaction';
 
 import AddCustomer from './SubScreen/AddCustomer';
-import AddService from './SubScreen/AddService';
-import ServiceDetail from './SubScreen/ServiceDetail';
+import AddService from '../../../Lab5/Lab5/Screen/AddService';
+import ServiceDetail from '../../../Lab5/Lab5/Screen/ServiceDetail';
 import TransactionDetail from './SubScreen/TransactionDetail';
 import UpdateService from './SubScreen/UpdateService';
 
